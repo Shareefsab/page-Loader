@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader in Page</title>
+</head>
+<style>
+.loadermain{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 30px solid rgb(78, 78, 5);
+    border-top-color: rgb(170, 138, 179);
+    animation: 5s ease-in-out infinite 2s forwards loader;
+}
+
+@keyframes loader{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+</style>
+<body>
+    <div class="loadermain"></div>
+</body>
+</html>
